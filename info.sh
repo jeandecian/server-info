@@ -6,6 +6,7 @@ echo
 echo "SYSTEM INFO"
 echo "[+] Host: $(uname -n)"
 echo "[+] IP: $(hostname -I)"
+echo "[+] MAC: $(ifconfig | grep ether | awk '{ print $2 }' ORS=', ')"
 echo
 
 echo "HARDWARE INFO"

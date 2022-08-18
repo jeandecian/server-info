@@ -4,6 +4,7 @@
 
 - Host
 - IP
+- MAC
 
 ## Hardware Info
 
